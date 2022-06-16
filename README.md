@@ -42,6 +42,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [https://joshua-expense-tracker.netlify.app/](https://joshua-space.herokuapp.com/)
+- Website - [https://joshua-space.herokuapp.com/](https://joshua-space.herokuapp.com/)
 - Frontend Mentor - [https://www.frontendmentor.io/profile/JuszJo](https://www.frontendmentor.io/profile/JuszJo)
 - Twitter - [https://www.twitter.com/jo_codes](https://www.twitter.com/jo_codes)
