@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="flex">
+    <section>
+      <header>
+        <section class="head-wrap">
+          <div class="head">
+            <section class="head-content">
+              <span>My balance</span>
+              <h2>$921.48</h2>
+            </section>
+            <img src="images/logo.svg" alt="logo">
+          </div>
+        </section>    
+      </header>
+      <main>
+        <section class="main-wrap">
+          <div class="main">
+            <h2>Spending - Last 7 days</h2>
+            <section class="main-chart">
+              <div id="chart1" class="chart"></div>
+              <div id="chart2" class="chart"></div>
+              <div id="chart3" class="chart"></div>
+              <div id="chart4" class="chart"></div>
+              <div id="chart5" class="chart"></div>
+              <div id="chart6" class="chart"></div>
+              <div id="chart7" class="chart"></div>
+            </section>
+            <section class="main-days">
+              <span>mon</span>
+              <span>tue</span>
+              <span>wed</span>
+              <span>thu</span>
+              <span>fri</span>
+              <span>sat</span>
+              <span>sun</span>
+            </section>
+            <section class="main-footer-wrap">
+              <div class="main-footer">
+                <section class="main-footer-left">
+                  <p>Total this month</p>
+                  <h1>$478.33</h1>
+                </section>
+                <section class="main-footer-right">
+                  <p><strong>+2.4%</strong></p>
+                  <span>from last month</span>
+                </section>
+              </div>
+            </section>
+          </div>
+        </section>
+      </main>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Joshua Ubani-Wokoma</a>.
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
