@@ -12,6 +12,8 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [What I learned](#what-i-learned)
   - [Author](#author)
 
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 ## Overview
 
 ### The challenge
@@ -30,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://joshua-expense-tracker.netlify.app/)
+- Live Site URL: [https://joshua-expense-tracker.netlify.app/](https://your-live-site-url.com)
 
 ### Built with
 
@@ -40,6 +42,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Joshua Ubani-Wokoma](https://joshua-space.herokuapp.com/)
-- Frontend Mentor - [@JuszJo](https://www.frontendmentor.io/profile/JuszJo)
-- Twitter - [@jo_codes](https://www.twitter.com/jo_codes)
+- Website - [https://joshua-expense-tracker.netlify.app/](https://joshua-space.herokuapp.com/)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/JuszJo](https://www.frontendmentor.io/profile/JuszJo)
+- Twitter - [https://www.twitter.com/jo_codes](https://www.twitter.com/jo_codes)
