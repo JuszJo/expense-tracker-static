@@ -2,6 +2,8 @@ window.onload = async () => {
     var charts = document.querySelectorAll(".chart")
 
     var html = document.querySelector("html")
+
+    var date = new Date()
     
     var amount = []
 
@@ -36,7 +38,7 @@ window.onload = async () => {
         }
 
         charts.forEach((value, key) => {
-            if(amount[key] == size) {
+            if(key == date.getDay() - 1) {
                 value.classList.add('big')
             }
             value.addEventListener('mouseover', () => {
