@@ -45,14 +45,14 @@ window.onload = async () => {
                 var att = document.createAttribute("data")
                 att.value = `$${amount[key]}`
                 value.setAttributeNode(att)
-                if(amount[key] == size) {
+                if(key == date.getDay() - 1) {
                     value.classList.remove('chart')
                     value.classList.add('chart2')
                 }
                 value.classList.add('addchart')
             })
             value.addEventListener('mouseleave', () => {
-                if(amount[key] == size) {
+                if(key == date.getDay() - 1) {
                     value.classList.add('chart')
                     value.classList.remove('chart2')
                 }
