@@ -9,6 +9,8 @@ window.onload = async () => {
 
     var font = window.getComputedStyle(html).fontSize
 
+    var num = 150
+
     font = font.slice(0, -2)
     
     var size = 0
@@ -28,10 +30,14 @@ window.onload = async () => {
         for(j in charts) {
             if(typeof(charts[j]) == "object") {
                 var heights = 0
-                if(parseInt(amount[j]) == size) {
-                    heights = 150 / parseInt(font)
+                if(parseInt(font) == 12) {
+                    num = 100
                 }
-                heights = ((parseInt(amount[j]) * 150) / size) / parseInt(font)
+                if(amount[j] == size) {
+                    console.log(amount[j], size)
+                    heights = num / parseInt(font)
+                }
+                heights = ((parseFloat(amount[j]) * num) / size) / parseInt(font)
 
                 charts[j].style.height = `${heights}rem`
             }
